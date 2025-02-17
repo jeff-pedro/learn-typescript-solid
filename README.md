@@ -1,2 +1,2 @@
-# solid
-Alura's course project about SOLID using TypeScript
+# Aprendendo sobre SOLID
+Curso sobre SOLID usando TypeScript.
