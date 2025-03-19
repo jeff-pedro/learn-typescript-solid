@@ -62,11 +62,19 @@ const funcionarioVoluntario = new FuncionarioVoluntario("Enzo", 20, funcionarioE
 console.log("nome:", funcionarioEfetivo.nome);
 console.log("salário bruto:", funcionarioEfetivo.salario);
 console.log("salário líquido:", funcionarioEfetivo.calculaSalarioLiquido());
-console.log("salário com PL:", funcionarioEfetivo.calculaParticipacaoDeLucros(2.5), "\n");
+console.log("salário com PL:", funcgionarioEfetivo.calculaParticipacaoDeLucros(2.5), "\n");
 
 //Voluntário
 console.log("nome:", funcionarioVoluntario.nome);
 
 
 // SO(L)ID
-/* Princípio da Substituição de Liskov (LSP) */
+/* Princípio da Substituição de Liskov (LSP)
+
+"Se q(x) é uma propriedade demonstrável dos objetos x de tipo T.
+Então q(y) deve ser verdadeiro para objetos de tipo S onde S é um subtipo de T." Barbara Liskov
+
+Em outras palavras:
+
+"Uma classe derivada pode ser substituída por sua classe base."
+*/
